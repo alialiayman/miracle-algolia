@@ -2,6 +2,11 @@
 
 This readme provides an overview of the Algolia project, how to set it up, and some additional information.
 
+## Demo
+
+To see a demo of this project in action, visit https://miracle-algolia.web.app/. 
+
+
 ## Description
 
 This project is built using Algolia, a powerful search and discovery platform. The project allows users to search and filter data based on different parameters. The search results are displayed in real-time as the user types in their search query. Additionally, this project includes click analytics to track user behavior and improve search results.

@@ -11,6 +11,7 @@ import {
 } from "@mui/material";
 import { Container } from "@mui/system";
 import algoliasearch from "algoliasearch";
+import RecommendIcon from '@mui/icons-material/Recommend';
 import React, { useState } from "react";
 
 const App = () => {
@@ -68,10 +69,12 @@ const App = () => {
                 <img src={result.image} alt={result.title} width="128" />
                 <br />
                 <Button
-                  variant="contained"
+                  variant="outlined"
                   onClick={() => handleButtonClick(result.objectID)}
+                  startIcon={<RecommendIcon />}
                 >
-                  Click me
+
+                  Recommend
                 </Button>
               </Grid>
               <Grid item xs={10}>
